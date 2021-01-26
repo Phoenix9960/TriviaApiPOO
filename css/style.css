@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.trivia-body {
+    width: 90%;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-selects{
+    width: 75%;
+}
+
+.apologize {
+    display: flex;
+    justify-content: center;
+}
+
+.f-weight {
+    font-size: 1.3rem;
+}
+
+.text-Center {
+    text-align: center;
+}
+
+.dis-Block {
+    display: block;
+}
+
+.headQuestion{
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn-outline-secondary{
+    color: white;
+}
+
+.btn-fat{
+    margin: 25px;
+    height: 50px;
+    color: white;
+}
+
+.bg-img {
+    background-color: black;
+    background-image: url('https://img.freepik.com/foto-gratis/simbolos-interrogacion-colores_1205-337.jpg?size=626&ext=jpg');
+    
+}
+/* .bg-img {
+    background-image: url('https://image.freepik.com/foto-gratis/notas-papel-colores-signos-interrogacion-cerca_79075-8199.jpg');
+} */
+
+.bg-lv-hard {
+    background-color: #f05454;
+}
+
+.bg-lv-med {
+    background-color: #ff9642;
+}
+
+.bg-lv-easy {
+    background-color: #61b15a;
+}
+
+.p-Relative {
+    position: relative;
+}
+
+.overQuestion {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #cdd0cbb5;
+}
+
+.hiddeElement {
+    visibility: hidden;
+}
+
+.checking-Icon {
+    height: 30%;
+    width: 15%;
+}
+
+.scoreboard{
+    position: fixed;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    top: 0px;
+    width: 85vw;
+    min-height: 20vh;
+    background-color: #b063c5;
+}
+.scoreboard-text {
+    color: #ffe9d6;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+}
+.scoreboard > h2 {
+    margin-bottom: 20px;
+}
